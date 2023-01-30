@@ -58,7 +58,7 @@ Mobile Portfolio
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<a href="https://sameedmohsin28.github.io/" target="_blank">Visit Portfolio</a>
+<a href="https://sameedmohsin28.github.io/">Visit Portfolio</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
