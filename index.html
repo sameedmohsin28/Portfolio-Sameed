@@ -19,18 +19,18 @@
                 <a href="#" class="logo">Sameed</a>
                 <a href="#" class="hamburger-btn"><img src="./Images/Icon - Menu.png" alt="Menu button"></a>
                 <div class="nav-list-desktop">
-                    <a href="#works-page" class="nav-portfolio">Portfolio</a>
-                    <a href="#about-page" class="nav-contact">About</a>
-                    <a href="#contact-page" class="nav-about">Contact</a>
+                    <a href="#works-page-link" class="nav-portfolio">Portfolio</a>
+                    <a href="#about-page-link" class="nav-contact">About</a>
+                    <a href="#contact-page-link" class="nav-about">Contact</a>
                 </div>
             </nav>
         </header>
 
         <section class="intro-page">
             <div class="intro-background"></div>
-            <h2 class="intro-heading">
+            <h1 class="intro-heading">
                 I’m Sameed<br>Glad to see <br class="tablet-heading">you!
-            </h2>
+            </h1>
             <p class="intro-description">
                 I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
             </p>
@@ -55,21 +55,20 @@
                 </li>
                 <li>
                     <a href="#" class="intro-github">
-                        <img class="github" src="./Images/github.svg" alt="github link">
+                        <img class="github" src="./Images/github.svg" alt="GitHub link">
                     </a>
                 </li>
                 <li>
                     <a href="#" class="intro-vector">
-                        <img src="./Images/Vector.svg" alt="LinkedIn link" class="angellist">
+                        <img src="./Images/Vector.svg" alt="Angellist link" class="angellist">
                     </a>
                 </li>
             </ul>
         </section>
 
         <!-- ======================== Works Page ======================== -->
-        <a name="works-page"></a>
         <section class="works-page">
-            <article class="project-work-card">
+            <article class="project-work-card" id="works-page-link">
                 <img src="./Images/1 tonic.png" alt="Screenshot of first project" class="work-project-image">
                 <div class="work-project-details">
                     <h2 class="work-project-details-heading">
@@ -246,12 +245,11 @@
         </section>
 
         <!-- ======================== About Page ======================== -->
-        <a name="about-page"></a>
-        <section class="about-page">
+        <section class="about-page" id="about-page-link">
             <div class="about-description-and-links-container">
-                <h1 class="about-heading">
+                <h2 class="about-heading">
                     About<br>Myself
-                </h1>
+                </h2>
                 <p class="about-description">
                     Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
                 </p>
@@ -326,8 +324,7 @@
         </section>
 
         <!-- ======================== Contact Page ======================== -->
-        <a name="contact-page"></a>
-        <section class="contact-form-page">
+        <section class="contact-form-page" id="contact-page-link">
             <div class="contact-form-background"></div>
             <img src="./Images/1ellipse.png" alt="" class="ellipse-image">
             <img src="./Images/2upRectangle.png" alt="" class="up-rectangle">
@@ -340,15 +337,15 @@
             <form action="https://formspree.io/f/mjvdkngy" method="post">
                 <ul class="form-fields">
                     <li>
-                        <label for="name"></label>
+                        <label for="name" class="hidden-label">Your Name</label>
                         <input type="text" id="name" name="user_name" placeholder="Write your name here" maxlength="30" required>
                     </li>
                     <li>
-                        <label for="email"></label>
+                        <label for="email" class="hidden-label">Your Email</label>
                         <input type="email" id="email" name="user_email" placeholder="Write your email here" required>
                     </li>
                     <li>
-                        <label for="message"></label>
+                        <label for="message" class="hidden-label">Your Message</label>
                         <textarea name="user_message" id="message" cols="30" rows="10" placeholder="Write your message here" maxlength="500" required></textarea>
                     </li>
                     <li class="submit-button-container">
