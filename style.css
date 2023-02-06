@@ -477,6 +477,10 @@ form {
   width: 327px;
 }
 
+.hidden-label {
+  visibility: hidden;
+}
+
 input {
   width: 100%;
   height: 48px;
