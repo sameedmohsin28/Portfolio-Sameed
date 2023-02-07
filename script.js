@@ -1,18 +1,18 @@
-let btn = document.querySelector(".hamburger-btn");
-let mobileMenu = document.querySelector(".nav-list-mobile-container");
-let closeMenu = document.querySelector(".nav-cross-icon")
-let mobileNavLinks = document.querySelectorAll(".nav-link-mobile")
+const btn = document.querySelector('.hamburger-btn');
+const mobileMenu = document.querySelector('.nav-list-mobile-container');
+const closeMenu = document.querySelector('.nav-cross-icon');
+const mobileNavLinks = document.querySelectorAll('.nav-link-mobile');
 
-function toggleMenu () {
-  if (mobileMenu.style.display == "none") {
-      mobileMenu.style.display = "block";
+function toggleMenu() {
+  if (mobileMenu.style.display === 'none') {
+    mobileMenu.style.display = 'block';
   } else {
-      mobileMenu.style.display = 'none'; 
+    mobileMenu.style.display = 'none';
   }
 }
 
 btn.addEventListener('click', toggleMenu);
 closeMenu.addEventListener('click', toggleMenu);
-mobileNavLinks.forEach(function(element) {
+mobileNavLinks.forEach(function (element) {
   element.addEventListener('click', toggleMenu);
-})
+});
