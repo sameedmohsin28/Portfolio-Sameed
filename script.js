@@ -73,7 +73,7 @@ let html = document.querySelectorAll('.html');
 let css = document.querySelectorAll('.css');
 let javascript = document.querySelectorAll('.javascript');
 let rubyOnRails = document.querySelectorAll('.ruby-on-rails');
-let projectImage = document.querySelectorAll('.work-project-image')
+let projectImage = document.querySelectorAll('.work-project-image');
 
 for (let i = 0; i < 4; i++) {
   Array.from(mobileHeading)[i].innerHTML = cardWorks[i]['projectName'];
@@ -86,11 +86,11 @@ for (let i = 0; i < 4; i++) {
   Array.from(desktopProjectYear)[i].innerHTML = cardWorks[i]['projectYear'];
   Array.from(mobileProjectDescription)[i].innerHTML = cardWorks[i]['projectDescription'];
   Array.from(desktopProjectDescription)[i].innerHTML = cardWorks[i]['projectDescription'];
-  Array.from(html)[i].innerHTML = cardWorks[i]['technologies'][0]
-  Array.from(css)[i].innerHTML = cardWorks[i]['technologies'][1]
-  Array.from(javascript)[i].innerHTML = cardWorks[i]['technologies'][2]
-  Array.from(rubyOnRails)[i].innerHTML = cardWorks[i]['technologies'][3]
-  Array.from(projectImage)[i].src = cardWorks[i]['projectImage']
+  Array.from(projectImage)[i].src = cardWorks[i]['projectImage'];
+  Array.from(html)[i].innerHTML = cardWorks[i]['technologies'][0];
+  Array.from(css)[i].innerHTML = cardWorks[i]['technologies'][1];
+  Array.from(javascript)[i].innerHTML = cardWorks[i]['technologies'][2];
+  Array.from(rubyOnRails)[i].innerHTML = cardWorks[i]['technologies'][3];
 }
 
 
