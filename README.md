@@ -187,6 +187,6 @@ I would like to thank Matee Safi for his help.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/sameedmohsin28/sameedmohsin28.github.io/blob/Accessibility/LICENSE) licensed.
+This project is [MIT](https://github.com/sameedmohsin28/sameedmohsin28.github.io/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
