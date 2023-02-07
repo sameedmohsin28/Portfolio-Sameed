@@ -1,7 +1,8 @@
 let btn = document.querySelector(".hamburger-btn");
 let mobileMenu = document.querySelector(".nav-list-mobile-container");
 let closeMenu = document.querySelector(".nav-cross-icon")
-let mobileNavLinks = document.querySelector(".nav-link-mobile")
+let mobileNavLinks = document.querySelectorAll(".nav-link-mobile")
+
 function toggleMenu () {
   if (mobileMenu.style.display == "none") {
       mobileMenu.style.display = "block";
@@ -12,4 +13,6 @@ function toggleMenu () {
 
 btn.addEventListener('click', toggleMenu);
 closeMenu.addEventListener('click', toggleMenu);
-mobileNavLinks.addEventListener('click', toggleMenu);
+mobileNavLinks.forEach(function(element) {
+  element.addEventListener('click', toggleMenu);
+})
