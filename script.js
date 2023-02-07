@@ -13,6 +13,6 @@ function toggleMenu() {
 
 btn.addEventListener('click', toggleMenu);
 closeMenu.addEventListener('click', toggleMenu);
-mobileNavLinks.forEach(function (element) {
-  element.addEventListener('click', toggleMenu);
+mobileNavLinks.forEach((menuItem) => {
+  menuItem.addEventListener('click', toggleMenu);
 });
