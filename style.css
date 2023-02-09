@@ -222,16 +222,6 @@ nav {
   gap: 12px;
 }
 
-@media (max-width: 768px) {
-  .desktop-work-project-details-heading,
-  .desktop-client-name,
-  .desktop-your-role,
-  .desktop-project-year,
-  .desktop-work-project-description {
-    display: none;
-  }
-}
-
 .work-project-details-heading {
   font-weight: 700;
   font-size: 32px;
@@ -324,6 +314,183 @@ nav {
   border: 1px solid #6070ff;
   color: #396df2;
   background-color: #fff;
+}
+
+/* ======================== Popup ======================== */
+.popup-works {
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  align-items: center;
+  gap: 88px;
+  display: none;
+}
+
+.popup-card {
+  position: fixed;
+  background-color: #fff;
+  border:1px solid #ebecf0;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  border-radius: 16px;
+  padding: 16px;
+  width: 80%;
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  display: none;
+}
+  
+.popup-work-project-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.popup-heading-close-button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup-work-project-details-heading {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.popup-cross-button {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  right: 8px;
+}
+
+.popup-work-project-highlights {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+.popup-client-name {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.popup-your-role,
+.popup-project-year {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.popup-work-project-image {
+  width: 100%;
+  /* margin-top: 28px;
+  margin-bottom: 28px; */
+}
+
+.popup-description-tags-buttons {
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 12px;
+}
+  
+.popup-work-project-description {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+ 
+.popup-tags-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+  
+.popup-first-three-tags {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.popup-last-three-tags {
+  display: none;
+}
+  
+.popup-technology {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  height: 24px;
+}
+
+.popup-html {
+  width: 53px;
+}
+
+.popup-css {
+  width: 45px;
+}
+
+.popup-javascript {
+  width: 89px;
+}
+
+.popup-github {
+  width: 66px;
+}
+
+.popup-ruby {
+  width: 53px;
+}
+
+.popup-bootstraps {
+  width: 93px;
+}
+
+.popup-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding: 4px 9px;
+}
+
+.popup-see-live-button,
+.popup-see-source-button {
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  color: #396df2;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  width: 136px;
+  height: 38px;
 }
 
 /* ======================== About Page ======================== */
@@ -592,6 +759,7 @@ textarea {
   top: 705.27px;
 }
 
+/* ======================== Desktop Version ======================== */
 @media (min-width: 768px) {
   header {
     height: 72px;
@@ -693,15 +861,7 @@ textarea {
     width: 105px;
   }
 
-  .work-project-details-heading,
-  .client-name,
-  .your-role,
-  .project-year,
-  .work-project-description {
-    display: none;
-  }
-
-  .desktop-work-project-details-heading {
+  .work-project-details-heading {
     display: block;
     font-weight: 700;
     font-size: 40px;
@@ -709,7 +869,7 @@ textarea {
     color: #091e42;
   }
 
-  .desktop-client-name {
+  .client-name {
     display: block;
     font-weight: 500;
     font-size: 18px;
@@ -717,7 +877,7 @@ textarea {
     color: #344563;
   }
 
-  .desktop-your-role {
+  .your-role {
     display: block;
     font-weight: 400;
     font-size: 18px;
@@ -725,7 +885,7 @@ textarea {
     color: #6b778c;
   }
 
-  .desktop-project-year {
+  .project-year {
     display: block;
     font-weight: 400;
     font-size: 18px;
@@ -733,7 +893,7 @@ textarea {
     color: #6b778c;
   }
 
-  .desktop-work-project-description {
+  .work-project-description {
     display: block;
     font-weight: 400;
     font-size: 16px;
@@ -751,6 +911,71 @@ textarea {
     background: #2230d2;
   }
 
+  .popup-card {
+    padding: 24px;
+    width: 80vw;
+    gap: 12px;
+    margin-top: 77px;
+    margin-bottom: 77px;
+  }
+
+  .popup-work-project-details-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+  
+  .popup-client-name {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+  
+  .popup-your-role,
+  .popup-project-year {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+  }
+  
+  .popup-description-tags-buttons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 63% 35%;
+    column-gap: 2%;
+    margin-top: 31px;
+  }
+  
+  .popup-work-project-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .popup-first-three-tags,
+  .popup-last-three-tags {
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  
+  .popup-buttons {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .popup-see-live-button,
+  .popup-see-source-button {
+    width: 142px;
+    height: 40px;
+  }
+  
   .about-page {
     display: grid;
     grid-template-columns: 40% 60%;
