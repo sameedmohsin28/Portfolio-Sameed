@@ -47,7 +47,7 @@ const cardWorks = [
     'developerRole': 'Full Stack Dev',
     'projectYear': '2015',
     'projectDescription': 'Exploring the future of media in Facebook&#8216;s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    'projectDescPopupDesk': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    'projectDescPopupDesk': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea <br>',
     'technologies': ['html', 'css', 'javascript', 'Ruby on rails', 'github', 'Bootstraps', 'ruby'],
   },
 
@@ -134,19 +134,16 @@ cardWorks.forEach((project) => {
   `;
 });
 
-const seeProject = document.querySelector('.project-link-button');
-const closePopup = document.querySelector('.popup-cross-button');
-const popupCard = document.querySelector('.popup-card');
+const seeProject = Array.from(document.querySelectorAll('.project-link-button'));
+const closePopup = Array.from(document.querySelectorAll('.popup-cross-button'));
+const popupCard = Array.from(document.querySelectorAll('.popup-card'));
 
-function togglePopup () {
-  if (popupWorks.style.display === none  && popupCard.style.display === none) {
-    popupWorks.style.display === block;
-    popupCard.style.display === flex;
-  } else {
-    popupWorks.style.display === none;
-    popupCard.style.display === none;
-  }
+for (let i = 0; i < cardWorks.length; i += 1) {
+  seeProject[i].addEventListener('click', () => {
+    popupCard[i].style.display = 'flex';
+  });
+
+  closePopup[i].addEventListener('click', () => {
+    popupCard[i].style.display = 'none';
+  });
 }
-
-seeProject.addEventListener('click', togglePopup);
-closePopup.addEventListener('click', togglePopup);
