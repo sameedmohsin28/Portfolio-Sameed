@@ -19,49 +19,49 @@ mobileNavLinks.forEach((menuItem) => {
 
 const cardWorks = [
   {
-    'projectImage': './Images/1 tonic.png',
-    'projectName': 'Tonic',
-    'clientName': 'CANOPY',
-    'developerRole': 'Back End Dev',
-    'projectYear': '2015',
-    'projectDescription': 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    'projectDescPopupDesk': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    'technologies': ['html', 'css', 'javascript', 'Ruby on rails', 'github', 'Bootstraps', 'ruby'],
+    projectImage: './Images/1 tonic.png',
+    projectName: 'Tonic',
+    clientName: 'CANOPY',
+    developerRole: 'Back End Dev',
+    projectYear: '2015',
+    projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    projectDescPopupDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    technologies: ['html', 'css', 'javascript', 'Ruby on rails', 'github', 'Bootstraps', 'ruby'],
   },
 
   {
-    'projectImage': './Images/2 multi-post stories.png',
-    'projectName': 'Multi-Post Stories',
-    'clientName': 'FACEBOOK',
-    'developerRole': 'Full Stack Dev',
-    'projectYear': '2015',
-    'projectDescription': 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    'projectDescPopupDesk': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    'technologies': ['html', 'css', 'javascript', 'Ruby on rails', 'github', 'Bootstraps', 'ruby'],
+    projectImage: './Images/2 multi-post stories.png',
+    projectName: 'Multi-Post Stories',
+    clientName: 'FACEBOOK',
+    developerRole: 'Full Stack Dev',
+    projectYear: '2015',
+    projectDescription: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    projectDescPopupDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    technologies: ['html', 'css', 'javascript', 'Ruby on rails', 'github', 'Bootstraps', 'ruby'],
   },
 
   {
-    'projectImage': './Images/3 tonic.png',
-    'projectName': 'Facebook 360',
-    'clientName': 'FACEBOOK',
-    'developerRole': 'Full Stack Dev',
-    'projectYear': '2015',
-    'projectDescription': 'Exploring the future of media in Facebook&#8216;s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    'projectDescPopupDesk': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea <br>',
-    'technologies': ['html', 'css', 'javascript', 'Ruby on rails', 'github', 'Bootstraps', 'ruby'],
+    projectImage: './Images/3 tonic.png',
+    projectName: 'Facebook 360',
+    clientName: 'FACEBOOK',
+    developerRole: 'Full Stack Dev',
+    projectYear: '2015',
+    projectDescription: 'Exploring the future of media in Facebook&#8216;s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    projectDescPopupDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea <br>',
+    technologies: ['html', 'css', 'javascript', 'Ruby on rails', 'github', 'Bootstraps', 'ruby'],
   },
 
   {
-    'projectImage': './Images/4cardImage.png',
-    'projectName': 'Uber Navigation',
-    'clientName': 'Uber',
-    'developerRole': 'Full Stack Dev',
-    'projectYear': '2018',
-    'projectDescription': 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    'projectDescPopupDesk': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    'technologies': ['html', 'css', 'javascript', 'Ruby on rails', 'github', 'Bootstraps', 'ruby'],
-  }
-]
+    projectImage: './Images/4cardImage.png',
+    projectName: 'Uber Navigation',
+    clientName: 'Uber',
+    developerRole: 'Full Stack Dev',
+    projectYear: '2018',
+    projectDescription: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    projectDescPopupDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8216;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    technologies: ['html', 'css', 'javascript', 'Ruby on rails', 'github', 'Bootstraps', 'ruby'],
+  };
+];
 
 const worksPage = document.querySelector('.works-page');
 
