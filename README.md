@@ -49,10 +49,17 @@ Mobile Portfolio
   </ul>
 </details>
 
+<details>
+  <summary>JavaScript</summary>
+  <ul>
+    <li><a href="#">JavaScript</a></li>
+  </ul>
+</details>
+
 
 ### Key Features <a name="key-features"></a>
 
-- **[Tells people about my professional excellence]**
+- **[Opens a popup window for each project]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -66,7 +73,7 @@ Mobile Portfolio
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+<!-- ### Prerequisites
 
 In order to run this project you need:
 
@@ -76,11 +83,12 @@ Example command:
 ```sh
  gem install rails
 ```
- -->
+ --> -->
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder by
+git clone git@github.com:sameedmohsin28/sameedmohsin28.github.io.git
 
 <!--
 Example commands:
@@ -93,7 +101,7 @@ Example commands:
 
 ### Install
 
-Install this project with:
+Install this project with VS Code
 
 <!--
 Example command:
@@ -106,7 +114,7 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, use VS Code live server.
 
 <!--
 Example command:
@@ -118,7 +126,9 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command
+npx stylelint "**/*.{css,scss}"
+
 
 <!--
 Example command:
@@ -130,7 +140,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using GitHub pages.
 
 <!--
 Example:
@@ -159,7 +169,7 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[A desktop version will me created]**
+- [ ] **[A desktop version will be created]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
