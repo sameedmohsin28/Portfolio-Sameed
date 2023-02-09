@@ -12,7 +12,7 @@ Mobile Portfolio
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
+  <!-- - [Prerequisites](#prerequisites) -->
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -22,7 +22,7 @@ Mobile Portfolio
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+<!-- - [❓ FAQ (OPTIONAL)](#faq) -->
 - [📝 License](#license)
 
 
@@ -83,7 +83,7 @@ Example command:
 ```sh
  gem install rails
 ```
- --> -->
+ -->
 
 ### Setup
 
