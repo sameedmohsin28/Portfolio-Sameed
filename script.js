@@ -152,11 +152,11 @@ const form = document.getElementById('contactForm');
 const email = document.getElementById('email')
 const emailRegex = /^[a-z_\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/;
 const errorMsg = document.querySelector('.email-case-error');
-const emailCase = emailRegex.test(email);
-console.log(emailCase);
-console.log('Hi')
+// const emailCase = emailRegex.test(email);
+// console.log(emailCase);
+// console.log('Hi')
 
-function validityEmail() {
+function validityEmail(email) {
   if (emailRegex.test(email)) {
     errorMsg.style.display = 'none';
     return true;
@@ -168,7 +168,7 @@ function validityEmail() {
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-  const emailValid = validityEmail();
+  const emailValid = validityEmail(document.querySelector('.email-case-error'));
   console.log(emailValid);
   if (emailValid === true) {
     form.submit();
