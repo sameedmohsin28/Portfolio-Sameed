@@ -160,10 +160,9 @@ function validityEmail(email) {
   if (emailRegex.test(email) === true) {
     errorMsg.style.display = 'none';
     return true;
-  } else {
-    errorMsg.style.display = 'block';
-    return false;
   }
+  errorMsg.style.display = 'block';
+  return false;
 }
 
 form.addEventListener('submit', (event) => {
