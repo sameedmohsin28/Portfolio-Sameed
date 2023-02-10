@@ -147,3 +147,30 @@ for (let i = 0; i < cardWorks.length; i += 1) {
     popupCard[i].style.display = 'none';
   });
 }
+
+const form = document.getElementById('contactForm');
+const email = document.getElementById('email')
+const emailRegex = /^[a-z_\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/;
+const errorMsg = document.querySelector('.email-case-error');
+const emailCase = emailRegex.test(email);
+console.log(emailCase);
+console.log('Hi')
+
+function validityEmail() {
+  if (emailRegex.test(email)) {
+    errorMsg.style.display = 'none';
+    return true;
+  } else {
+    errorMsg.style.display = 'block';
+    return false;
+  }
+}
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const emailValid = validityEmail();
+  console.log(emailValid);
+  if (emailValid === true) {
+    form.submit();
+  }
+});

@@ -729,6 +729,12 @@ textarea {
   background-color: #fff;
 }
 
+.email-case-error {
+  font-weight: 900;
+  color: rgb(241, 233, 234);
+  display: none;
+}
+
 .ellipse-image {
   position: absolute;
   right: 0;
