@@ -149,15 +149,15 @@ for (let i = 0; i < cardWorks.length; i += 1) {
 }
 
 const form = document.getElementById('contactForm');
-const email = document.getElementById('email')
-const emailRegex = /^[a-z_\-0-9\.\*\#\$\!\~\%\^\&\-\+\?\|]+@+[a-z\-0-9]+(.com)$/;
+// const email = document.getElementById('email')
+const emailRegex = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
 const errorMsg = document.querySelector('.email-case-error');
 // const emailCase = emailRegex.test(email);
 // console.log(emailCase);
 // console.log('Hi')
 
 function validityEmail(email) {
-  if (emailRegex.test(email)) {
+  if (emailRegex.test(email) === true) {
     errorMsg.style.display = 'none';
     return true;
   } else {
@@ -168,8 +168,8 @@ function validityEmail(email) {
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-  const emailValid = validityEmail(document.querySelector('.email-case-error'));
-  console.log(emailValid);
+  const emailValid = validityEmail(document.getElementById('email').value);
+  // console.log(document.getElementById('email').value);
   if (emailValid === true) {
     form.submit();
   }
