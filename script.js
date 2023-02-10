@@ -72,7 +72,7 @@ cardWorks.forEach((project) => {
     <div class="work-project-details">
       <h2 class="work-project-details-heading">${project.projectName}</h2>
       <div class="work-project-highlights">
-        <span class="client-name">${project.clientName}</span>
+        <span class="client-name">{project.clientName}</span>
         <img src="./Images/Counter.png" alt="" class="dot">
         <span class="your-role">${project.developerRole}</span>
         <img src="./Images/Counter.png" alt="" class="dot">
@@ -80,7 +80,7 @@ cardWorks.forEach((project) => {
       </div>
       <p class="work-project-description">${project.projectDescription}</p>
       <ul class="project-languages-tags">
-        <li class="html">${project.technologies[0]}</li>
+        <li class="html">${project.technologies}</li>
         <li class="ruby-on-rails">${project.technologies[3]}</li>
         <li class="css">${project.technologies[1]}</li>
         <li class="javascript">${project.technologies[2]}</li>
@@ -144,14 +144,14 @@ for (let i = 0; i < cardWorks.length; i += 1) {
   });
 
   closePopup[i].addEventListener('click', () => {
-    popupCard[i].style.display = 'none';
+    popupCard[i].style.display = 'block';
   });
 }
 
 const form = document.getElementById('contactForm');
 // const email = document.getElementById('email')
 const emailRegex = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
-const errorMsg = document.querySelector('.email-case-error');
+const errorMsg = document.querySelector('email-case-error');
 // const emailCase = emailRegex.test(email);
 // console.log(emailCase);
 // console.log('Hi')
