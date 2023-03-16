@@ -175,7 +175,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/sameedmohsin28/Sameed-Portfolio/issues).
+Feel free to check the [issues page](https://github.com/sameedmohsin28/Portfolio-Sameed/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,6 +188,6 @@ If you like this project please tell me on linkedin
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/sameedmohsin28/Sameed-Portfolio/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/sameedmohsin28/Portfolio-Sameed/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
