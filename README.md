@@ -1,5 +1,4 @@
-# Portfolio
-Mobile Portfolio
+# Portfolio-Sameed
 <a name="readme-top"></a>
 
 
@@ -21,8 +20,6 @@ Mobile Portfolio
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-<!-- - [❓ FAQ (OPTIONAL)](#faq) -->
 - [📝 License](#license)
 
 
@@ -65,7 +62,7 @@ Mobile Portfolio
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<a href="https://sameedmohsin28.github.io/">Visit Portfolio</a>
+<a href="https://sameedmohsin28.github.io/Portfolio-Sameed">Visit Portfolio</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,9 +154,9 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@sameedmohsin28](https://github.com/githubhandle)
-- Twitter: [@sameedmohsin22](https://twitter.com/twitterhandle)
-- LinkedIn: [https://www.linkedin.com/in/sameed-mohsin-538792180/](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@sameedmohsin28](https://github.com/sameedmohsin28/)
+- Twitter: [@sameedmohsin22](https://twitter.com/SameedMohsin22)
+- LinkedIn: [Sameed Mohsin](https://www.linkedin.com/in/sameed-mohsin-538792180/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -178,7 +175,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/sameedmohsin28/Sameed-Portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,15 +185,9 @@ If you like this project please tell me on linkedin
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank Matee Safi for his help.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/sameedmohsin28/sameedmohsin28.github.io/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/sameedmohsin28/Sameed-Portfolio/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
