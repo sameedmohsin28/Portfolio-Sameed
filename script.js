@@ -19,7 +19,7 @@ mobileNavLinks.forEach((menuItem) => {
 
 const cardWorks = [
   {
-    projectImage: './Images/fastLaneRacers.png',
+    projectImage: './Images/fastLaneRacers.PNG',
     projectName: 'Fast Lane Racers',
     clientName: 'Personal Project',
     developerRole: 'Full-stack',
@@ -32,7 +32,7 @@ const cardWorks = [
   },
 
   {
-    projectImage: './Images/expenseTracker.png',
+    projectImage: './Images/expenseTracker.PNG',
     projectName: 'Expense Tracker',
     clientName: 'Personal Project',
     developerRole: 'Full-stack',
@@ -45,7 +45,7 @@ const cardWorks = [
   },
 
   {
-    projectImage: './Images/forexRates.png',
+    projectImage: './Images/forexRates.PNG',
     projectName: 'ForEx Rates',
     clientName: 'Personal Project',
     developerRole: 'Front-end',
@@ -58,7 +58,7 @@ const cardWorks = [
   },
 
   {
-    projectImage: './Images/restaurantMeal.png',
+    projectImage: './Images/restaurantMeal.PNG',
     projectName: 'Restaurant Meals',
     clientName: 'Personal Project',
     developerRole: 'Front-end',
