@@ -125,7 +125,7 @@ cardWorks.forEach((project) => {
           `<li class="tech">${tech}</li>`
         ).join('')}
         </ul>
-        <img src="./Images/Devider.png" alt="" class="popup-tags-buttons-divider">
+        <img src="./Images/Divider.png" alt="" class="popup-tags-buttons-divider">
         <div class="popup-buttons">
           <a href="${project.liveDeployedLink}" class="popup-see-live-button" target="_blank">See live <img src="./Images/seeLiveButton.png" alt="" class="see-live-icon"></a>
           <a href="${project.sourceCodeLink}" class="popup-see-source-button" target="_blank">See source <img src="./Images/seeSourceButon.svg" alt="" class="see-source-icon"></a>
