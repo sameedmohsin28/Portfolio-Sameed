@@ -45,7 +45,7 @@ const cardWorks = [
   },
 
   {
-    projectImage: './Images/forexRates.PNG',
+    projectImage: './Images/forexRates.JPG',
     projectName: 'ForEx Rates',
     clientName: 'Personal Project',
     developerRole: 'Front-end',
