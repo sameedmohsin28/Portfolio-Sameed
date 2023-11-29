@@ -22,6 +22,7 @@ body {
   width: 100%;
 }
 
+
 /* header {
   width: 100%;
   height: 92px;
@@ -1031,8 +1032,14 @@ textarea {
   .css-container {
     flex-direction: column;
     align-items: flex-start;
-    width: 100px;
+    width: 110px;
     height: 110px;
+  }
+
+
+  .ts-frame {
+    height: 48px;
+    width: 48px;
   }
 
   .contact-form-page {
